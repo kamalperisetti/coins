@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  height: 150px;
+}
+.coins {
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  margin: 10px;
+}
+
+button {
+  background-color: #e2a139;
+  border-width: 0px;
+  padding: 8px;
+  border-radius: 8px;
+}
